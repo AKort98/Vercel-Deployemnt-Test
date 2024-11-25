@@ -16,10 +16,10 @@ function Navbar({ children }) {
         </div>
       </nav>
       <nav className="flex md:hidden p-4 justify-between">
-        <Logo />
-        <button>
-          <GiHamburgerMenu />
-        </button>
+        <div className="flex items-center gap-2">
+          <Logo />
+          <span className="text-black text-lg font-bold">Urban Drift</span>
+        </div>
       </nav>
       <main className="px-4 md:px-10 w-full ">{children}</main>
     </div>
