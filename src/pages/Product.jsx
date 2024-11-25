@@ -39,6 +39,7 @@ function Product() {
               src={product.image}
               alt="product image"
               className="w-[400px]"
+              loading="lazy"
             />
           </div>
           <div className="bg-gray-100 rounded-2xl px-4 py-2 flex flex-col w-full gap-4">
