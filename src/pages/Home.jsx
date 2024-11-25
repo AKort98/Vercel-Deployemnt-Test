@@ -27,7 +27,7 @@ function Home() {
     );
 
   return (
-    <div className="px-8">
+    <div className="px-3 md:px-8">
       <ProductList data={allProducts} />
     </div>
   );
